@@ -3,22 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+     <link
       rel="stylesheet"
-      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Cookie"
-      rel="stylesheet"
-      type="text/css"
-    />
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" />
-
+    <link rel="stylesheet" href="assets/css/contact.css" >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
     <title>Document</title>
   </head>
 
@@ -38,10 +32,10 @@
         <div class="menu-ul">
           <ul>
             <li>
-              <a class="active" href="index.html">Home</a>
+              <a  href="index.html">Home</a>
             </li>
             <li>
-              <a href="contact.html">Contact us </a>
+              <a class="active" href="contact.html">Contact us </a>
             </li>
             <li>
               <a href="project.html">Project</a>
@@ -55,57 +49,65 @@
       </div>
     </header>
 
-    <!-- Back-ground image here-->
-    <div class="hero-image">
-      <div class="box-div">
-        <div class="news-box">
-          <a href="project.html" alt="#">
-            <h2>See Our Project</h2>
 
-            <!-- <h3 class="about-us">
-						about us hhek ekjh kehkjek hkeh keh
-					</h3> -->
-          </a>
+
+      <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <div class="col">
+          <h3 class="contact-heading uppercase text-center">
+            intersested in working with us?
+          </h3>
+          <!-- <h5 class="uppercase text-center">Send us your project !</h5> -->
+
+          <div class="center-form">
+            <form>
+              <input
+                type="text"
+                name="name"
+                id="fullname"
+                class="form-control"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="emailaddress"
+                class="form-control"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                rows="5"
+                name="projectsummary"
+                id="projectsummary"
+                class="form-control"
+                placeholder="Project description"
+                required
+              ></textarea>
+              <div class="form-row text-center">
+                <div class="col">
+                  <button type="submit" class="btn btn-secondary">
+                    Send Project Request
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  </body>
+    </section>
 
-  <!-- The comapny services here-->
-  <section id="services">
-    <div class="b-g-facts">
-      <h2>ABOUT US <i class="fa fa-address-book" aria-hidden="true"></i></h2>
-      <p>
-      Since 1978 E. Schramm Schlosserei GmbH offers qualitative 
-      service in the field of metal work 
-      with a focus on steel construction, 
-      interior and exterior stairs, 
-      railings and balcony construction as well as steel processing. 
-      
-      (FH) Stephan Schramm who is leading the company in the second generation since 1988. 
+    <section id="map-direction"> 
+    <iframe id="map-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.738911263938!2d9.07768991589438!3d48.51906953249182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799fab47f7f0477%3A0xf3da59934b62e57f!2sEberhard%20Schramm%20Schlosserei%20GmbH!5e0!3m2!1sen!2sse!4v1592804345997!5m2!1sen!2sse"
+  width="50%" height="320" frameborder="0" style="border:solid 1px black;" allowfullscreen>
+</iframe>
 
-      </p>
-    </div>
+ </section>
+
+
     
-    <div class="b-g-facts">
-      <h2>QUALIFICATION <i class="fa fa-certificate" aria-hidden="true"></i></h2>
-      <p>
-       Since 2010 our company is registered for prequalification of construction services with register number 010.045320. 
-       Of course we are even prepared to participate in digital offer and demand services. 
-       Our craftsman are qualified for steel-processing according to DIN 18 800-7
-
-      </p>
-    </div>
-    <div class="b-g-facts">
-      <h2> WHO WE WORK FOR <i class="fa fa-cubes" aria-hidden="true"></i></h2>
-      <p>
-      We offer services for all kinds of individual demand with experience from the public sector as well as privately driven companies and private households. 
-      We are prepared to offer services for small scale private projects to big industrial developments.  
-      </p>
-    </div>
-  </section>
-
-  <footer class="footer-distributed">
+    <footer class="footer-distributed">
     <div class="footer-left">
       <img src="assets/images/Logo2.png" />
       
@@ -169,4 +171,5 @@
       </div>
     </div>
   </footer>
+  </body>
 </html>
