@@ -1,39 +1,33 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Schramm-Schlosserei-GmbH
 
-Welcome USER_NAME,
+#### This is a site of a metalworking comapny called E.Schramm-Schlosserei-GmbH. The comapny is based in Tuebingen/ Germany. It exists since 1978 and provide services within metalworking for private as well as public clients. I am updating the company's current homepage that you can find in the following link: [E-Schramm] (https://www.schramm-schlosserei.de/index2.html) 
+#### As the company is located in germany, i wiill make the hompage with two langiuages English and Germnan !
+## The Webpage purpose is to present the company and its services. Current or future clients will be able to :
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+* find information/ history of the company
+* see services provided by the company such as Metal-proccessing
+* see finished projects in a gallery linked page.
+* contact the company through a platform easy to undwerstand.
+* find the direction to the company smoothly using google. map.
+* Get information about the legal background and the company qualifications
+* Get a welcomeing feeling for the family owned business through uppdated news.
+* Get informed aboiut free position to apply to.
+UX
 
-## Gitpod Reminders
+Balasmique
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Features
 
-`python3 -m http.server`
+Another feature idea: creating links to social network, as the company dose not have social media presentaion yet.
 
-A blue button should appear to click: *Make Public*,
+Technologies Used
 
-Another blue button should appear to click: *Open Browser*.
+HTML, CSS
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Bootstrap CSS libraries/frameworks.
+google font aswem fon† 
+Testing
 
-A blue button should appear to click: *Make Public*,
+Deployment
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+NOTE: Note: The company owner agrees that i uopdate this homepage, within the frame of My MS1.
