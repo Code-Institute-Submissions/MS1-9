@@ -12,7 +12,7 @@
 	background-color:#292c2f;
 	box-shadow:0 1px 1px #ccc;
 	padding: 20px 40px;
-	height: 100px;
+	height: 120px;
 	color: #ffffff;
 	box-sizing: border-box;
 	top:-100px;
@@ -20,8 +20,7 @@
     word-spacing: 6px;
     
 
-	-webkit-transition:top 0.3s;
-	transition:top 0.3s;
+	/*  */
 }
 
 .header-fixed .header-limiter {
@@ -110,12 +109,15 @@ body.fixed .header-fixed .header-limiter nav {
 
 /* Making the header responsive */
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 767px) {
 
-	.header-fixed {
+	.header-fixed .header-fixed-placeholder 
+    .header-limiter nav {
 		padding: 20px 0;
 		height: 75px;
+        display: block;
 	}
+    
 
 	.header-fixed .header-limiter h1 {
 		float: none;
@@ -147,17 +149,39 @@ body.fixed .header-fixed .header-limiter nav {
  */
 
 
-body {
-	margin: 0;
-	padding: 0;
-	height: 1500px;
-    
-}
+/* */
    
-    
-body {
-  background-color: #f0f0f0;
-  color:#333;
+    .hero-image {
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: url("../images/background.jpeg") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+/*-------------------------------------------- box inside the hero image link to the gallery here*/
+
+.news-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15%;
+  height: 200px;
+  background-color: #fff;
+  align-items: center;
+  opacity: 0.5;
+  margin-left: 45px;
+  margin-bottom: 25px;
+}
+
+
+box-div {
+  display: flex;
+  justify-content: flex-start;
 }
 
 section{
@@ -191,7 +215,7 @@ section{
 
 .service:hover{
 	padding: 20px 0;
-	background-color: gray;
+	background-color: #292c2f;
 }
 
 .service:hover h3{
@@ -269,43 +293,8 @@ ul li a:hover {
 
 /*-------------------------------------------- background image*/
 
-.hero-image {
-  width: 90%;
-  height: 60vh;
-  
-}
-.hero-image {
-  height: 60vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  background: url("../images/background.jpeg") no-repeat;
-  background-size: 100% 100%;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-}
+/*  */
 
-/*-------------------------------------------- box inside the hero image link to the gallery here*/
-
-.news-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 15%;
-  height: 200px;
-  background-color: #fff;
-  align-items: center;
-  opacity: 0.5;
-  margin-left: 45px;
-  margin-bottom: 25px;
-}
-
-
-box-div {
-  display: flex;
-  justify-content: flex-start;
-}
    
 
 /*-------------------------------------------- services here here*/
@@ -376,7 +365,7 @@ footer{
  
  
 .footer-distributed{
-	background-color: #1c2628;
+	background-color: #292c2f;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
