@@ -1,63 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>E. Schramm Schlosserei GmbH</title>
     <link
       rel="stylesheet"
       href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
     />
-    <link
-      href="http://fonts.googleapis.com/css?family=Cookie"
+     <link
       rel="stylesheet"
-      type="text/css"
-    />
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" />
-
-    <link
+    <link rel="stylesheet" href="assets/css/career.css" />
+     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <title>Document</title>
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
 
   <body>
-    <header>
-<!-- logo here-->
+    <header class="header-fixed">
+      <div class="header-limiter">
+        <h1>
+          <a href="index.html"><span>E. Schramm Schlosserei GmbH </span></a>
+        </h1>
 
-      <div class="logo">
-        
-        <a href="index.html">
-          <img id="logo" src="assets/images/Logo2.png" alt="E Schramm" />
-        </a>
-      </div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="contact.html">CONTACT-US</a>
 
-      <!-- nav/ menu here-->
-      <div class="menu">
-        <div class="menu-ul">
-          <ul>
-            <li>
-              <a class="active" href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact us </a>
-            </li>
-            <li>
-              <a href="project.html">Project</a>
-            </li>
+          <a href="project.html">PROJECT</a>
 
-            <li>
-              <a class="active" href="career.html">Career</a>
-            </li>
-          </ul>
-        </div>
+          <a href="carrer.html" class="selected">CAREER</a>
+        </nav>
       </div>
     </header>
 
+     <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <div class="col">
+          <h3 class="contact-heading uppercase text-center">
+            JOIN OUR TEAM !
+          </h3>
+          <h5 class="text-center">To complete our team and take on new projects we are now looking for a experienced craftsman in metalwork and –construction. <br>We are looking for you who has a completed vocational training in the field of metalwork/-construction. <br>
+          Practical experiences from previous employments are an advantage. Please attach according references to your application.<br>
 
+We are looking forward to hear from you!
+</h5>
 
-    <footer class="footer-distributed">
+          <div class="center-form">
+            <form>
+              <input
+                type="text"
+                name="name"
+                id="fullname"
+                class="form-control"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="emailaddress"
+                class="form-control"
+                placeholder="Email"
+                required
+              />
+              <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Upload your CV</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01"
+      aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+              <textarea
+                rows="5"
+                name="coverletter"
+                id="coverletter"
+                class="form-control"
+                placeholder="Cover Letter"
+                required
+              ></textarea>
+              <div class="form-row text-center">
+                <div class="col">
+                  <button type="submit" class="btn btn-secondary">
+                    APPLY
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="header-fixed-placeholder"></div>
+  </body>
+
+   <footer class="footer-distributed">
     <div class="footer-left">
       <img src="assets/images/Logo2.png" />
       
@@ -70,7 +124,7 @@
         <a href="contact.html">Contact Us</a>
       </p>
 
-      <p class="footer-company-name">© 2020 LaiMo2020</p>
+      <p class="footer-company-name">© E. Schramm Schlosserei GmbH</p>
     </div>
 
     <div class="footer-center">
@@ -98,7 +152,7 @@
 
     <div class="footer-right">
       <p class="footer-company-about">
-        <span>About the company</span>
+       <span> About the company</span>
         E. Schramm Schlosserei GmbH stands for qualitative and skilled work in
         the field of steel and metal works.
       </p>
@@ -121,5 +175,4 @@
       </div>
     </div>
   </footer>
-  </body>
 </html>

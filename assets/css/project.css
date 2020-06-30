@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+.sq {
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  transition: all 800ms;
+}
+.conatianer {
+    margin-top: 50px;
+}
+.sq-1 {
+  background-image: url('../images/gallery/Handlauf.JPG');
+}
+
+.sq-2 {
+  background-image: url('../images/gallery/Gel„nder2.jpg');
+}
+
+.sq-3 {
+  background-image: url('../images/gallery/Gel„nder.jpg');
+}
+.sq-4 {
+  background-image: url('../images/gallery/Balkonverkleidung.jpg');
+}
+
+.sq-5 {
+  background-image: url('../images/gallery/Balkonverkleidung3.JPG');
+}
+
+.sq-6 {
+  background-image: url('../images/gallery/Balkonverkleidung2.jpg');
+}
+.sq-7 {
+  background-image: url('../images/gallery/Auentreppe3.jpg');
+}
+
+.sq-8 {
+  background-image: url('../images/gallery/Treppengel„nder.jpg');
+}
+
+.sq-9 {
+  background-image: url('../images/gallery/RP.jpg');
+}
+.contaier {
+  padding: 20px;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  padding: 15%;
+  
+  transition: all 800ms;
+
+}
+
+.bg p {
+  padding-top: 45%;
+  color: rgb(233, 233, 233);
+  font-family: 'Acme', sans-serif;
+  font-size: 16pt;
+  border-bottom: 1px double #fff;
+  width: 50%;
+  margin-bottom: 0.5rem;
+  transition: all 800ms;
+
+}
+
+.bg span {
+  transition: all 800ms;
+  color: rgba(207, 207, 207, 0.788);
+  font-family: 'Acme', sans-serif;
+  font-size: 12pt;
+}
+
+.bg a {
+
+  transition: all 500ms;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Acme', sans-serif;
+  font-size: 12pt;
+  opacity: 0;
+
+}
+
+.br {
+  width: 100%;
+  height: 100%;
+  border: 5px solid rgb(216, 216, 216);
+  box-shadow: 1px 1px 10px #000;
+  transition: all 800ms;
+}
+
+.sq:hover {
+  background-size: 110% 110%;
+}
+
+.sq:hover .bg {
+  
+  padding: 3%;
+
+}
+
+.sq:hover .br {
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px rgb(41, 41, 41);
+}
+
+.sq:hover .bg p {
+  padding-top: 35%;
+  color: rgb(246, 246, 246);
+  font-size: 24pt;
+  text-shadow: 1px 1px 10px rgba(24, 24, 24, 0.582);
+  border-bottom: 2px double #fff;
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.sq:hover .bg span {
+  color: rgba(255, 255, 255, 0.959);
+  text-align: center;
+  width: 100%;
+  padding-left: 20%;
+  font-family: 'Acme', sans-serif;
+  font-size: 12pt;
+}
+
+.sq:hover .bg a {
+
+  opacity: 0;
+}

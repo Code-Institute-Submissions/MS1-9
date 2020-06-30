@@ -8,14 +8,213 @@
   border: 0;
 }
 
+.header-fixed {
+	background-color:#292c2f;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 100px;
+	color: #ffffff;
+	box-sizing: border-box;
+	top:-100px;
+     letter-spacing: 4px;
+    word-spacing: 6px;
+    
+
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+}
+
+.header-fixed .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.header-fixed-placeholder{
+	height: 80px;
+	display: none;
+}
+
+/* Logo */
+
+.header-fixed .header-limiter h1 {
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header-fixed .header-limiter h1 span {
+	color: #fff;
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-fixed .header-limiter nav {
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.header-fixed .header-limiter nav a{
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.header-fixed .header-limiter nav a:hover{
+	opacity: 1;
+}
+
+.header-fixed .header-limiter nav a.selected {
+	color: gray;
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Fixed version of the header */
+
+body.fixed .header-fixed {
+	padding: 10px 40px;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+body.fixed .header-fixed-placeholder {
+	display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+body.fixed .header-fixed .header-limiter nav {
+	line-height: 28px;
+	font-size: 13px;
+}
+
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+	.header-fixed {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header-fixed .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-fixed .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-fixed .header-limiter nav a {
+		font-size: 13px;
+	}
+
+	body.fixed .header-fixed {
+		display: none;
+	}
+
+}
+
+/*
+	 We are clearing the body's margin and padding, so that the header fits properly.
+	 We are also adding a height to demonstrate the scrolling behavior. You can remove
+	 these styles.
+ */
+
+
 body {
+	margin: 0;
+	padding: 0;
+	height: 1500px;
+    
+}
+   
+    
+body {
+  background-color: #f0f0f0;
+  color:#333;
+}
+
+section{
+  margin:50px 0;
+}
+
+.section-title{
+	background-color: #fff;
+	margin-bottom: 50px;
+	overflow: hidden;
+  color:black;
+  /* border-left: 5px solid #ff4444; */
+}
+
+.services-inner{
+	overflow: hidden;
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service{
+	padding: 20px 0;
+	background-color: #333;
+  border:1px solid #ff4444;
+}
+
+.service h3{
+	color:white;
+}
+
+.service:hover{
+	padding: 20px 0;
+	background-color: gray;
+}
+
+.service:hover h3{
+	color:#fff;
+}
+
+.service-content{
+	color: #fff;
+	padding: 0 10px;
+}
+
+@media(max-width: 767px){
+  .services-inner{
+		display: block;
+	}
+}
+/* body {
   font-family: roboto;
   color: #fff;
   
 }
 
 
-/*-------------------------------------------- header here*/
 
 header {
   height: 20vh;
@@ -26,14 +225,14 @@ header {
   background-color: #fff;
 }
 
-/*-------------------------------------------- logo here*/
+
 
  #logo {
   width: 75%; 
   margin-top: 1px; 
 }
 
-/*-------------------------------------------- menu here*/
+
 
 
 .menu {
@@ -66,7 +265,7 @@ ul li a:hover {
 
 .active {
   border-bottom: 1px solid #777777;
-}
+} */
 
 /*-------------------------------------------- background image*/
 
@@ -107,9 +306,10 @@ box-div {
   display: flex;
   justify-content: flex-start;
 }
+   
 
 /*-------------------------------------------- services here here*/
-
+/* 
 #services {
     
   background-repeat: no-repeat;
@@ -158,9 +358,9 @@ box-div {
     height: 50px;
     width: 50px;
     background-size: cover; 
-    /* opacity: 0.6; */
+    
 
-} 
+}  */
 
 /*-------------------------------------------- footer here here inspired from bootstrap example*/
 
@@ -289,7 +489,7 @@ footer{
  
 .footer-distributed .footer-company-about{
 	line-height: 30px;
-	color:  inherit;
+	color:  #fff;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
@@ -325,7 +525,7 @@ footer{
 	margin-bottom: 5px;
 }
  
-/* Here is the code for Responsive Footer */
+/* Responsive Footer */
 
  
  
