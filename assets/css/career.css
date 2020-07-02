@@ -1,37 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 
+/* copied/inspired =>modified from Resume Project */
 
+.contact-heading {
+  font-family: "Acme", sans-serif;
+  font-weight: 250;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.text-center {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+}
+.text-center h5 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+}
+.btn {
+  color: black;
+}
 
-
-
-
-
-
- 
-
-    .contact-heading {
-        font-family: "Acme", sans-serif;
-        font-weight: 250;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        
-
-    } 
-    .text-center{
-
-        margin-bottom: 50px;
-        margin-top: 50px;
-        text-align: justify;
-      
-    } 
-
-
-
-
-    
-    .btn{
-
-color: black;
-
-    }
 
