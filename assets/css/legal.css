@@ -30,3 +30,12 @@ h3 {
     color: red;
 }
 
+
+@media all and (max-width: 767px) {
+
+.legal-box{
+		width:90%;
+        margin: auto;
+	}
+
+}

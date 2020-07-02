@@ -18,8 +18,22 @@
   margin-top: 50px;
   
 }
+
+.center-form {
+    width: 70%;
+    margin: auto;
+}
 .btn {
-  color: black;
+  color:red;
+margin-top: 30px;
+background-color: black;
 }
 
+
+@media(max-width: 767px){
+  .center-form {
+		width: 100%;
+        
+	}
+}
 

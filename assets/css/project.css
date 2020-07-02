@@ -9,6 +9,7 @@
 }
 .conatianer {
     margin-top: 50px;
+    cursor: default;
 }
 .sq-1 {
   background-image: url('../images/gallery/Handlauf.JPG');
@@ -45,6 +46,12 @@
 }
 .contaier {
   padding: 20px;
+}
+
+.projectname-1{
+margin-top:120px;
+margin-left: 30px;
+
 }
 
 .projectname{

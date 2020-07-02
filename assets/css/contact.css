@@ -10,11 +10,12 @@
 } */
 
 #map-google{
-    width:100%; 
+    width:90%; 
     height:350px;
     
      border: solid 1px black;
-     margin-top: 5%;
+     margin-left: 5%;
+
      
 }
 
@@ -22,6 +23,7 @@
 
 .container-fluid { background-color:#fff;
 color: black;
+width: 70%;
 
 }
 
@@ -29,7 +31,7 @@ color: black;
 body {background-color: #fff;
     }
     .contact-heading {
-        font-family: "Roborto" sans-serif;
+        font-family: "Acme", sans-serif;
         font-weight: 250;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -38,10 +40,19 @@ body {background-color: #fff;
     }
     .btn{
 
-color: black;
+color:red;
+margin-top: 30px;
+background-color: black;
+
 
     }
     .text-center {text-align: justify;
   text-justify: inter-word;
         
     }
+
+    /* @media all and (max-width: 767px) { */
+
+	/* #map-google {
+		width:70%;
+	} */
