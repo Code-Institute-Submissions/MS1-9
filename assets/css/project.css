@@ -1,4 +1,13 @@
+/*-------------------------------------------- google font*/
+
+
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+  
+
+
+
+/* -----------------------------gallery here, copied /inspired/ modified from bootstrap/codepen.com example */
 
 .sq {
   background-size: 100% 100%;
@@ -7,10 +16,13 @@
   height: 400px;
   transition: all 800ms;
 }
+
+
 .conatianer {
     margin-top: 50px;
-    cursor: default;
+    cursor: pointer;
 }
+/* ----------------------------------------------adding images  */
 .sq-1 {
   background-image: url('../images/gallery/Handlauf.JPG');
 }
@@ -47,27 +59,33 @@
 .contaier {
   padding: 20px;
 }
+ 
+ /* ----------------------------------------------position first project  */
 
-.projectname-1{
+ .projectname-1{
 margin-top:120px;
 margin-left: 30px;
 
 }
 
+
+/* ----------------------------------------------position  project 1 ans 2  */
 .projectname{
 margin-top: 50px;
 margin-left: 30px;
 
 }
-
+ /* ----------------------------------------------styling back ground gallery  */
 .bg {
   width: 100%;
   height: 100%;
   padding: 15%;
-  
   transition: all 800ms;
 
 }
+
+
+/* ----------------------------------------------styling paragraph inside images  */
 
 .bg p {
   padding-top: 45%;
@@ -80,6 +98,8 @@ margin-left: 30px;
   transition: all 800ms;
 
 }
+/* ----------------------------------------------styling title of images  */
+
 
 .bg span {
   transition: all 800ms;
@@ -88,26 +108,12 @@ margin-left: 30px;
   font-size: 12pt;
 }
 
-.bg a {
 
-  transition: all 500ms;
-  width: 100%;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-family: 'Acme', sans-serif;
-  font-size: 12pt;
-  opacity: 0;
 
-}
 
-.br {
-  width: 100%;
-  height: 100%;
-  border: 5px solid rgb(216, 216, 216);
-  box-shadow: 1px 1px 10px #000;
-  transition: all 800ms;
-}
 
+
+/* ----------------------------------------------styling hover  */
 .sq:hover {
   background-size: 110% 110%;
 }
@@ -142,7 +148,4 @@ margin-left: 30px;
   font-size: 12pt;
 }
 
-.sq:hover .bg a {
 
-  opacity: 0;
-}

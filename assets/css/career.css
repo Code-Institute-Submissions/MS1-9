@@ -1,6 +1,10 @@
+/*-------------------------------------------- google font*/
+
 @import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 
-/* copied/inspired =>modified from Resume Project */
+/* --------------------------------------------copied/inspired =>modified from Resume Project */
+
+/*-------------------------------------------- styling the application form*/
 
 .contact-heading {
   font-family: "Acme", sans-serif;
@@ -11,29 +15,28 @@
 .text-center {
   margin-bottom: 50px;
   margin-top: 50px;
-  
 }
 .text-center h5 {
   margin-bottom: 50px;
   margin-top: 50px;
-  
 }
 
 .center-form {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
+
+/*-------------------------------------------- styling the applying botton*/
+
 .btn {
-  color:red;
-margin-top: 30px;
-background-color: black;
+  color: red;
+  margin-top: 30px;
+  background-color: black;
 }
 
-
-@media(max-width: 767px){
+/*-------------------------------------------- responsive in a smaller devices*/
+@media (max-width: 767px) {
   .center-form {
-		width: 100%;
-        
-	}
+    width: 100%;
+  }
 }
-

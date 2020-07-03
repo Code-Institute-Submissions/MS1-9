@@ -1,10 +1,10 @@
+/*-------------------------------------------- google font*/
+
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 
 
-section {
-  margin-top: 25px;
-  
-}
+
+/*-------------------------------------------- styling the big box*/
 
 article {
   width: 70%;
@@ -17,6 +17,9 @@ article {
   font-size: 22px
 }
 
+
+/*-------------------------------------------- styling the paragraph*/
+
 p {
   font-size: 20px;
   line-height: 30px;
@@ -24,18 +27,23 @@ p {
   color: #fff;
   
 }
+
+/*-------------------------------------------- styling the header of paragraph*/
 h3 {
-    color:#fff;
+    
     margin-bottom: 20px;
     color: red;
 }
 
-
-@media all and (max-width: 767px) {
+/*-------------------------------------------- responsive in a smaller device*/
+@media all and (max-width: 768px) {
 
 .legal-box{
-		width:90%;
+		width:80%;
         margin: auto;
+    
+        
 	}
 
 }
+

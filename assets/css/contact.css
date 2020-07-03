@@ -3,24 +3,13 @@
 .uppercase {
   text-transform: uppercase;
 }
-/* google map here  */
-
-/* #map-direction{
-    background-color: gray;
-} */
-
-#map-google{
-    width:90%; 
-    height:350px;
-    
-     border: solid 1px black;
-     margin-left: 5%;
-
-     
-}
+/* -------------------------------------- styling google map  */
 
 
 
+
+
+/*-------------------------------------------- styling the contact form*/
 .container-fluid { background-color:#fff;
 color: black;
 width: 70%;
@@ -38,6 +27,10 @@ body {background-color: #fff;
         
 
     }
+
+    
+    /*-------------------------------------------- styling the sending botton*/
+
     .btn{
 
 color:red;
@@ -50,6 +43,17 @@ background-color: black;
   text-justify: inter-word;
         
     }
+
+
+#map-google{
+    width:90%; 
+    height:350px;
+    
+     border: solid 1px black;
+     margin-left: 5%;
+
+     
+}
 
     /* @media all and (max-width: 767px) { */
 
