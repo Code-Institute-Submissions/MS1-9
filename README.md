@@ -48,12 +48,58 @@
 
 
 
-Features
+Features:
 
-Another feature idea: creating links to social network, as the company dose not have social media presentaion yet.
+Another feature idea: creating social media account, as the company dose not have social media presentaion yet.
 
 Technologies Used
 
 
 
 NOTE: Note: The company owner agrees that i uopdate this homepage, within the frame of My MS1.
+
+
+
+## Testing 
+
+#### 1. I have used the follwoing to test my code:
+
+- [ W3C Mark-up Validation](https://validator.w3.org/nu/) to check my HTML code.
+
+![HTML-W3C](/assets/images/validator/w3chtml.png)
+- [ W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check CSS code.
+
+![HTML-W3C](/assets/images/validator/w3c-css.png)
+
+- [livewave, Chrome DevTools ](https://liveweave.com/) to visualise my code.
+
+
+#### 2. I have tested the project in the following browser:
+
+- Google Chrome
+- Firefox
+- Safari
+
+
+
+##### 3. I have used the following devices to test the page:
+
+- My iphone XR
+- My Mac
+- My brother Ipad
+- My girlfriend iphone/se
+
+
+## Deployment:
+
+
+
+- creating my account on Github.com
+- login into gitpod.com using my githun account
+- creating my the project repository (2 times as i had changed the mentor)
+- Used the template of Code Institute.
+- clicked on the gitpod green botton to accsses to my IDE on gitpod.
+- selected the Master branchm GitHub pages section as source
+
+
+
