@@ -28,12 +28,23 @@
 #### I used Balasmique programm (will be mention in the "Technologies Used") to create the following:
 - Mobile Wireframes
 
-![Home-page](../assets/images/wirframe/MS-1_Homepage-phone.png)
-
+![Home-page](/assets/images/wirframe/MS-1_Homepage-phone.png)
+![Legal-info](/assets/images/wirframe/MS-1_legalinfo-phone.png)
+![Contact](/assets/images/wirframe/MS-1_Contact-phone.png)
+![Gallery](/assets/images/wirframe/MS-1_project-phone.png)
+![Career](/assets/images/wirframe/MS-1_Career-phone .png)
 
 
 
 - Desktop Wireframes 
+
+![Home-page](/assets/images/wirframe/MS-1_Homepage.png)
+![Legal-info](/assets/images/wirframe/MS-1_Legal-info.png)
+![Contact](/assets/images/wirframe/MS-1_contact.png)
+![Gallery](/assets/images/wirframe/MS-1_Project.png)
+![Career](/assets/images/wirframe/MS-1_career.png)
+
+
 
 
 

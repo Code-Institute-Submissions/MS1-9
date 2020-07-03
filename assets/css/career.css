@@ -12,9 +12,10 @@
   margin-top: 80px;
   margin-bottom: 80px;
 }
-.text-center {
+.text-center  {
   margin-bottom: 50px;
   margin-top: 50px;
+ 
 }
 .text-center h5 {
   margin-bottom: 50px;
@@ -39,4 +40,11 @@
   .center-form {
     width: 100%;
   }
+
+  /*-------------------------------------------- fixer the codepostal position*/
+}
+ .footer-center  h6 {
+    
+   padding-left: 13%;
+    color:#fff;
 }

@@ -1,62 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 
 .uppercase {
   text-transform: uppercase;
 }
-/* -------------------------------------- styling google map  */
-
-
-
-
+/* --------------------------------------------copied/inspired =>modified from Resume Project */
 
 /*-------------------------------------------- styling the contact form*/
-.container-fluid { background-color:#fff;
-color: black;
-width: 70%;
-
+.container-fluid {
+  background-color: #fff;
+  color: black;
+  width: 70%;
 }
 
- 
-body {background-color: #fff;
-    }
-    .contact-heading {
-        font-family: "Acme", sans-serif;
-        font-weight: 250;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        
+body {
+  background-color: #fff;
+}
+.contact-heading {
+  font-family: "Acme", sans-serif;
+  font-weight: 250;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
-    }
+/*-------------------------------------------- styling the sending botton*/
 
-    
-    /*-------------------------------------------- styling the sending botton*/
-
-    .btn{
-
-color:red;
-margin-top: 30px;
-background-color: black;
-
-
-    }
-    .text-center {text-align: justify;
+.btn {
+  color: red;
+  margin-top: 30px;
+  background-color: black;
+}
+.text-center {
+  text-align: justify;
   text-justify: inter-word;
-        
-    }
-
-
-#map-google{
-    width:90%; 
-    height:350px;
-    
-     border: solid 1px black;
-     margin-left: 5%;
-
-     
 }
 
-    /* @media all and (max-width: 767px) { */
+/* -------------------------------------- styling google map  */
 
-	/* #map-google {
-		width:70%;
-	} */
+#map-google {
+  width: 70%;
+  height: 350px;
+
+  border: solid 1px black;
+  margin-left: 15%;
+}
