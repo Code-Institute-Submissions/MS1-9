@@ -9,6 +9,7 @@
   border: 0;
 }
   /* -- -------------------------------------------- header, inspired from bootstrap, codepn.com example */
+
 /*-------------------------------------------- style the head*/
 .header-fixed {
   background-color: #292c2f;
@@ -86,7 +87,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 100;
 }
 
 body.fixed .header-fixed .header-limiter h1 {
@@ -104,7 +105,7 @@ body.fixed .header-fixed .header-limiter nav {
 
 @media all and (max-width: 768px) {
   .header-fixed .header-fixed-placeholder .header-limiter nav h1 {
-    padding: 20px 20;
+    padding: 20px 20px;
 
     display: block;
     font-size: 12px;
@@ -383,11 +384,12 @@ footer {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color:#292c2f;
   border-radius: 2px;
+  color: #fff;
 
   font-size: 20px;
-  color: #ffffff;
+  
   text-align: center;
   line-height: 35px;
 

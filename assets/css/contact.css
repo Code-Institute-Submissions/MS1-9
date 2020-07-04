@@ -17,7 +17,7 @@ body {
 }
 .contact-heading {
   font-family: "Acme", sans-serif;
-  font-weight: 250;
+  font-weight: 100;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -27,7 +27,7 @@ body {
 .btn {
   color: red;
   margin-top: 30px;
-  background-color: black;
+  background-color: #292c2f;
 }
 .text-center {
   text-align: justify;

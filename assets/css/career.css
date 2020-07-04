@@ -8,7 +8,7 @@
 
 .contact-heading {
   font-family: "Acme", sans-serif;
-  font-weight: 250;
+  font-weight: 100;
   margin-top: 80px;
   margin-bottom: 80px;
 }
@@ -32,7 +32,7 @@
 .btn {
   color: red;
   margin-top: 30px;
-  background-color: black;
+  background-color: #292c2f;
 }
 
 /*-------------------------------------------- responsive in a smaller devices*/

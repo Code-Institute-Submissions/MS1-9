@@ -1,11 +1,6 @@
 /*-------------------------------------------- google font*/
 
-
-@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
-
-  
-
-
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 
 /* -----------------------------gallery here, copied /inspired/ modified from bootstrap/codepen.com example */
 
@@ -17,101 +12,88 @@
   transition: all 800ms;
 }
 
-
 .conatianer {
-    margin-top: 50px;
-    cursor: pointer;
+  margin-top: 50px;
+  
 }
 /* ----------------------------------------------adding images  */
 .sq-1 {
-  background-image: url('../images/gallery/Handlauf.JPG');
+  background-image: url("../images/gallery/Handlauf.JPG");
 }
 
 .sq-2 {
-  background-image: url('../images/gallery/Gel„nder2.jpg');
+  background-image: url("../images/gallery/Gel„nder2.jpg");
 }
 
 .sq-3 {
-  background-image: url('../images/gallery/Gel„nder.jpg');
+  background-image: url("../images/gallery/Gel„nder.jpg");
 }
 .sq-4 {
-  background-image: url('../images/gallery/Balkonverkleidung.jpg');
+  background-image: url("../images/gallery/Balkonverkleidung.jpg");
 }
 
 .sq-5 {
-  background-image: url('../images/gallery/Balkonverkleidung3.JPG');
+  background-image: url("../images/gallery/Balkonverkleidung3.JPG");
 }
 
 .sq-6 {
-  background-image: url('../images/gallery/Balkonverkleidung2.jpg');
+  background-image: url("../images/gallery/Balkonverkleidung2.jpg");
 }
 .sq-7 {
-  background-image: url('../images/gallery/Auentreppe3.jpg');
+  background-image: url("../images/gallery/Auentreppe3.jpg");
 }
 
 .sq-8 {
-  background-image: url('../images/gallery/Treppengel„nder.jpg');
+  background-image: url("../images/gallery/Treppengel„nder.jpg");
 }
 
 .sq-9 {
-  background-image: url('../images/gallery/RP.jpg');
+  background-image: url("../images/gallery/RP.jpg");
 }
 .contaier {
   padding: 20px;
 }
- 
- /* ----------------------------------------------position first project  */
 
- .projectname-1{
-margin-top:120px;
-margin-left: 30px;
+/* ----------------------------------------------position first project  */
 
+.projectname-1 {
+  margin-top: 120px;
+  margin-left: 30px;
 }
-
 
 /* ----------------------------------------------position  project 1 ans 2  */
-.projectname{
-margin-top: 50px;
-margin-left: 30px;
-
+.projectname {
+  margin-top: 50px;
+  margin-left: 30px;
 }
- /* ----------------------------------------------styling back ground gallery  */
+/* ----------------------------------------------styling back ground gallery  */
 .bg {
   width: 100%;
   height: 100%;
   padding: 15%;
   transition: all 800ms;
-
 }
-
 
 /* ----------------------------------------------styling paragraph inside images  */
 
 .bg p {
   padding-top: 45%;
   color: rgb(233, 233, 233);
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 16pt;
   border-bottom: 1px double #fff;
   width: 50%;
   margin-bottom: 0.5rem;
   transition: all 800ms;
-
 }
 /* ----------------------------------------------styling title of images  */
-
 
 .bg span {
   transition: all 800ms;
   color: rgba(207, 207, 207, 0.788);
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 12pt;
 }
-
-
-
-
-
 
 /* ----------------------------------------------styling hover  */
 .sq:hover {
@@ -119,9 +101,7 @@ margin-left: 30px;
 }
 
 .sq:hover .bg {
-  
   padding: 3%;
-
 }
 
 .sq:hover .br {
@@ -144,8 +124,6 @@ margin-left: 30px;
   text-align: center;
   width: 100%;
   padding-left: 20%;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 12pt;
 }
-
-
