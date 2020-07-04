@@ -5,7 +5,7 @@
 In this projected I created a fully functioning webpage for a metal working company called E.Schramm-Schlosserei-GmbH. The company has a very outdated and unfunctional current website [E-Schramm](https://www.schramm-schlosserei.de/index2.html) which will be replaced with this production. For the development I used HTML, CSS plus Bootstrap. The aim of this project was to improve the companies attraction by making it easy for current and future clients to find information, take contact and get an interactive impression of the companies service through an up to date homepage. As the company is located in Germany the legal-info and data privacy content is kept in German. The link to my project            
  [E-Schramm](https://laimo2020.github.io/MS1/)
  
- **Note: The company owner agrees that i uopdate this homepage, within the frame of My MS1.**
+ **Note: The company owner agrees that i update this homepage, within the frame of My MS1.**
 
 ## UX
 
@@ -76,7 +76,7 @@ In this projected I created a fully functioning webpage for a metal working comp
 
 ### - Homepage
 
-### - project/ gallery
+### - Project/ gallery
 #### Pictures in the gallery include a description text about projects that hovers when navigating through the page
 
 ### - Contact 
@@ -94,7 +94,7 @@ In this projected I created a fully functioning webpage for a metal working comp
 ### - Legal-info & Data Privacy
 #### Links to a page with collected legal information and information about data privacy rules. Those sections are crucial for a serious business page
 
-### - social media 
+### - Social media 
 #### Links to different social media channels
 
 ### - Contact info
@@ -208,21 +208,21 @@ to visualise/edit my code live.
 
 - Text on legal information was too small for small devices. Fixed by media tag through increasing the width to 90%
 
-- there were many others issues, the lovely slack's community were there for an amazing support.
+- There were many others issues, the lovely slack's community were there for an amazing support.
 
 
 ## Deployment:
 
 ### The following steps were taken for deployment of my site:
 
-1. Creating my own account on github.com. My public profile can be accessed here: - [MS1/my project](https://laimo2020.github.io/MS1/
+1. Creating my own account on github.com. My public profile can be accessed here: - [MS1/my project](https://github.com/LaiMo2020/MS1
 )
 2. Login into gitpod.com using my GitHub account
 3. Creating a project repository Used the template of Code Institute to facilitate the environment of the editor
 4. Clicked on the gitpod green botton to accsses to my IDE on gitpod.
 5. selected the Master branch GitHub pages section as source 
 6. Using GIT to have different versions with a comment of my project **(Note: After changing my mentor I created a fresh repository and pasted the already finished parts from the first repository into it)**.  
-7. GIT push leads me to the final URL of my projected that you can find in the settings and that can be shared with others to access the page in a browser
+7. GIT push leads me to the final URL of my projected that you can find in the settings and that can be shared with others to access the page in a browser [MS1](https://laimo2020.github.io/MS1/)
 
 
 ## Acknowledgement 
