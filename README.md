@@ -1,5 +1,7 @@
 # Milestone Project 1: Schramm-Schlosserei-GmbH/ Metal-Construction Company
 
+![](assets/images/responsive-devices.png)
+
 In this projected I created a fully functioning webpage for a metal working company called E.Schramm-Schlosserei-GmbH. The company has a very outdated and unfunctional current website [E-Schramm](https://www.schramm-schlosserei.de/index2.html) which will be replaced with this production. For the development I used HTML, CSS plus Bootstrap. The aim of this project was to improve the companies attraction by making it easy for current and future clients to find information, take contact and get an interactive impression of the companies service through an up to date homepage. As the company is located in Germany the legal-info and data privacy content is kept in German. The link to my project            
  [E-Schramm](https://laimo2020.github.io/MS1/)
  
@@ -35,23 +37,29 @@ In this projected I created a fully functioning webpage for a metal working comp
 ## Wireframes
 #### For the creation of my wireframes I used the Balsamiqu program (see “technologies used). Throughout the development of the webpage the wireframes were very helpful for my self as well as in communication with the company owner. After an initial design idea I edited and changed the layout and reached a design which was well communicated and adapted to the wishes of the company as well as to my own knowledge about user experience and web development.
 
-- Mobile Wireframes
+1. Mobile Wireframes
 
-![Home-page](/assets/images/wirframe/MS-1_Homepage-phone.png)
-![Legal-info](/assets/images/wirframe/MS-1_legalinfo-phone.png)
-![Contact](/assets/images/wirframe/MS-1_Contact-phone.png)
-![Gallery](/assets/images/wirframe/MS-1_project-phone.png)
-![Career](/assets/images/wirframe/MS-1_Career-phone .png)
+- [Home-page](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_Homepage-phone.png)
+
+- [Legal-info](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_legalinfo-phone.png)
+
+- [Contact](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_Contact-phone.png)
+- [Gallery](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_project-phone.png)
+- [Career](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_Career-phone.png)
 
 
 
-- Desktop Wireframes 
+2. Desktop Wireframes 
 
-![Home-page](/assets/images/wirframe/MS-1_Homepage.png)
-![Legal-info](/assets/images/wirframe/MS-1_Legal-info.png)
-![Contact](/assets/images/wirframe/MS-1_contact.png)
-![Gallery](/assets/images/wirframe/MS-1_Project.png)
-![Career](/assets/images/wirframe/MS-1_career.png)
+- [Home-page](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_Homepage.png)
+
+- [Legal-info](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_Legal-info.png)
+
+- [Contact](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_contact.png)
+
+- [Gallery](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_Project.png)
+
+- [Career](https://github.com/LaiMo2020/MS1/blob/master/assets/images/wireframe/MS-1_career.png)
 
 
 
@@ -60,95 +68,97 @@ In this projected I created a fully functioning webpage for a metal working comp
 ## Features:
 
 
-1. Header 
+## 1. Header 
 
 #### The header includes a Logo variation of the company that matches the pages modern design as well as a navbar with the most important menu sections. I implemented a fixed header that facilitates the users navigation and enables to go back to start easily after scrolling.
 
 ### The navbar includes links to:
 
-- Homepage
+### - Homepage
 
-- project/ gallery
-Pictures in the gallery include a    description text about projects that hovers when navigating through the page
+### - project/ gallery
+#### Pictures in the gallery include a description text about projects that hovers when navigating through the page
 
-- Contact 
-Includes a contact form allowing the user to send e-mails and project requests directly to the company. An embedded google maps with the companies location point facilitates the user to find directions to the companies office and workshop.
+### - Contact 
+#### Includes a contact form allowing the user to send e-mails and project requests directly to the company. An embedded google maps with the companies location point facilitates the user to find directions to the companies office and workshop.
 
-- Career
-Includes a text section with currently open positions as well as a form that allows job-seeker to upload their application documents and e-mail them directly to the company
+### - Career
+#### Includes a text section with currently open positions as well as a form that allows job-seeker to upload their application documents and e-mail them directly to the company
 
-2. Footer
+## 2. Footer
 
-The footer section includes all important information about the company and allows the user to dive deeper into the companies background and take further contact
- - Logo
-The official companies Logo 
+#### The footer section includes all important information about the company and allows the user to dive deeper into the companies background and take further contact
+ ### - Logo
+#### The official companies Logo 
 
-- Legal-info & Data Privacy
-Links to a page with collected legal information and information about data privacy rules. Those sections are crucial for a serious business page
+### - Legal-info & Data Privacy
+#### Links to a page with collected legal information and information about data privacy rules. Those sections are crucial for a serious business page
 
-- social media 
-Links to different social media channels
+### - social media 
+#### Links to different social media channels
 
-- Contact info
-Interactive icons to mail and call immediately while using the mobile page 
+### - Contact info
+#### Interactive icons to mail and call immediately while using the mobile page 
 
 
-### Features to be developed in the future  
+## Features to be developed in the future  
+
 - Creating social media accounts, as the company does not have a presentation yet
 
 - Including a “News” section that strengthens the users impression and warm feeling for the family owned business through updated news
 
+
 ## Technologies Used
 
 
-- [HTML](https://html.com/)
+### 1. [HTML](https://html.com/)
 
 For the basic structure of the project
 
-- [CSS](http://css.com/)
+### 2. [CSS](http://css.com/)
 
 For the styling and design of the webpage
 
-- [Bootstrap](https://getbootstrap.com/)
+### 3.  [Bootstrap](https://getbootstrap.com/)
 
 Quick and responsive method to implement header, footer and others sections
 
-- [GitHub](https://github.com/)
+### 4. [GitHub](https://github.com/)
 
 Platform to publish the webpage and interact with clients and the coder community
 
-- [Gitpod](https://www.gitpod.io/)
+### 5. [Gitpod](https://www.gitpod.io/)
 
 A coding editor with an adapted and easy coding environment
 
-- [GIT](https://git-scm.com/)
+### 6. [GIT](https://git-scm.com/)
 
 For version control. As I changed my mentor during the project phase I created a new repository throughout the process. Many sections I had created during my tutoring with the first mentor were pasted into this new repository. Therefor e GIT was just used a few times. 
 
-- [Google Fonts](https://fonts.google.com/)
+### 7. [Google Fonts](https://fonts.google.com/)
 
 As a resource to design my fonts
-- [Font Awesome](https://fontawesome.com/6?next=%2F)
+### 8. [Font Awesome](https://fontawesome.com/6?next=%2F)
 
 As a resource of icons to style my page
-- [ImageOptim](https://imageoptim.com/mac)
+### 9. [ImageOptim](https://imageoptim.com/mac)
 
 To minimise the file size of used photos in order to accelerate the pages loading time
 
 
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+### 10. [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 For live editing options while coding the page
-- [Balsamiq](https://balsamiq.com/)
+### 11. [Balsamiq](https://balsamiq.com/)
 
 To create wireframes
 
 
-- [Codpen](https://codepen.io/)
+### 12. [Codpen](https://codepen.io/)
 
 Inspiration from others developers
 
-For the basic structure of the project
+
 
 
 
@@ -175,9 +185,12 @@ For the basic structure of the project
 - iPad
 - iPhone SE
 
-### Validation of the code
+### Validation of the code/ Screenshoot
 
-[vlaidator/screnshoot/HTML](https://github.com/LaiMo2020/MS1/blob/master/assets/images/validator/w3chtml.png)
+- [vlaidator/screnshoot/HTML](https://github.com/LaiMo2020/MS1/blob/master/assets/images/validator/validator-html.png)
+
+- [vlaidator/screnshoot/CSS](https://github.com/LaiMo2020/MS1/blob/master/assets/images/validator/vlaidator-css.png)
+
 - [W3C/HTML](https://validator.w3.org/)
 to check my  HTML code.
 
@@ -195,6 +208,7 @@ to visualise/edit my code live.
 
 - Text on legal information was too small for small devices. Fixed by media tag through increasing the width to 90%
 
+- there were many others issues, the lovely slack's community were there for an amazing support.
 
 
 ## Deployment:
@@ -212,7 +226,7 @@ to visualise/edit my code live.
 
 
 ## Acknowledgement 
-- My mentor Seun (Seun Owonikoko) for advices and support in finalising my project
+- My mentor Seun (Seun Owonikoko) for a great advices and support.
 - The code institute community on slack for feedback on questions and helpful advices 
 - Family members for help with testing and feedback on the page
 - The company owner for a good communication and opportunity to design their new page
@@ -227,7 +241,7 @@ to visualise/edit my code live.
 * https://getbootstrap.com/docs/4.5/getting-started/introduction/
 * https://www.freeformatter.com/html-formatter.html#ad-output
 * https://unsplash.com/
-
+* http://ami.responsivedesign.is/#
 
 
 
