@@ -208,6 +208,9 @@ to visualise/edit my code live.
 
 - Text on legal information was too small for small devices. Fixed by media tag through increasing the width to 90%
 
+
+- In the legal-info's page, I got a warning as I am using German language in the data privacy section insted of English. 
+
 - There were many others issues, the lovely slack's community were there for an amazing support.
 
 

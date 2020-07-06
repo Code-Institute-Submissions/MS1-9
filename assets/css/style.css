@@ -397,6 +397,10 @@ footer {
   margin-bottom: 5px;
 }
 
+.footer-icons:hover a{
+    color: red;
+    }
+
 /* ------------------------------------------------------------Responsive Footer */
 
 @media (max-width: 880px) {
